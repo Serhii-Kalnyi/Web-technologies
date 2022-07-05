@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+
+          <img src="./logo.png" alt="Microsoft"/>
+          <h1>
+            <b>HTML Éléments</b>
+          </h1>
+          <hr />
+
+          <div>
+           <strong>
+              <a href="#">Maison</a> &nbsp;&nbsp;
+              <a href="#">En-têtes</a> &nbsp;&nbsp;
+              <a href="#">Table</a> &nbsp;&nbsp;
+              <a href="#">Liste</a> &nbsp;&nbsp;
+              <a href="#">Formats de texte</a> &nbsp;&nbsp;
+              <a href="#">Citations en bloc</a>
+          </strong>
+            <hr />
+          </div>
+
+
+          <p>
+            Faites attention à la balise h1 à l'intérieur de l'élément de section. Taille de police pour h1
+            est identique à font-size pour h2, car nous ne devons utiliser qu'un seul
+            h1 sur la page, et il est couramment utilisé dans l'en-tête
+          </p>
+          <hr />
+
+          <div>
+            <h2>Entête 2</h2>
+            <h3>Entête 3</h3>
+            <h4>Entête 4</h4>
+            <h5>Entête 5</h5>
+            <h6>Entête 6</h6>
+            <hr />
+          </div>
+
+
+          <div>
+            <p>
+              Beaucoup de douleur c'est beaucoup, <a href="#">lien d'essai</a> des boites
+              film. <strong>C'est fort.</strong> Buts Quelqu'un. <em>Ceci est souligné</em>.
+              Jusqu'à la gorge. Maintenant les draps sont les bienvenus. 3<sup>5</sup> = 243.
+              L'eau est H<sub>2</sub>O. Pour beaucoup de plaisir. C'est l'heure de la liberté
+               mais, au moins, ce n'est pas une belle chose, les véhicules enceintes, les fans.
+              <cite> Agence France Presse </cite> (c'est une citation).<u>Souligner.
+              </u>
+              Mécène tortionnaire orné Jusqu'à ce que la terre ait besoin d'un sage Mauris
+              un ante. Quel semblant de plaisir Les maladies de la terre
+            </p>
+            <p>
+              <u>HTML</u> et <u>CSS</u> sont nos outils. Mauris un ante. Quel semblant de
+              plaisir Les maladies de la terre C'est beaucoup de monde, la masse du deuil
+              est fermentée, la laideur de mes problèmes juste Pour copier un type de fichier
+              COPY <em>nom de fichier</em>.
+              <s>Dîner à 6:00.</s>
+              <mark>Faisons ça 8.</mark>
+              Cette
+              <del>texte</del>
+              a été frappé.
+            </p>
+            <hr />
+          </div>
+
+          <div>
+            <h2>Table</h2>
+            <table>
+
+              <thead>
+                <tr>
+                  <th>Entête</th>
+                  <th>Entête</th>
+                  <th>Entête</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Luxembourg</td>
+                  <td>Paris</td>
+                  <td>Barcelone</td>
+                </tr>
+                <tr>
+                  <td>Veine</td>
+                  <td>Varsovie</td>
+                  <td>Madrid</td>
+                </tr>
+                <tr>
+                  <td>Rome</td>
+                  <td>Rome</td>
+                  <td>Ottawa</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <h2>Liste non ordonnée</h2>
+            <ul style="list-style-type:square;">
+              <li>Élément de liste 1</li>
+              <li>Élément de liste 2</li>
+              <ul>
+                <li>Certains éléments de liste imbriqués 1</li>
+              </ul>
+              <li>Élément de liste 3</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Liste ordonnée</h2>
+            <ul style="list-style-type:decimal;">
+              <li>Élément de liste 1</li>
+              <li>Élément de liste 2</li>
+              <ul style="list-style-type:upper-alpha;">
+                <li>Certains éléments de liste imbriqués 1</li>
+              </ul>
+              <li>Élément de liste 3</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Liste de définition</h3>
+            <dl>
+              <dt>définit les termes 1</dt>
+              <dd>la description 1</dd>
+              <dt>définit les termes 2</dt>
+              <dd>la description 2</dd>
+            </dl>
+          </div>
+
+
+          <div>
+            Détails
+            <select name="Details">
+              <option>HTML</option>
+              <option>CSS</option>
+              <option>JS</option>
+            </select>
+            <hr />
+          </div>
+
+
+          <div>
+            <h2>Formats de texte</h2>
+            <h3>Texte de l'article</h3>
+            <article>
+              <h2>Le titre de l'article</h2>
+              <p>Description d'article</p>
+            </article>
+          </div>
+
+          <div>
+            <h3>Texte préformaté</h3>
+            <pre>
+        <b>Texte</b>
+          dans un <b>pre</b> élément
+             est affiché dans une largeur fixe
+         police, et il préserve
+         les deux espaces et
+             sauts de ligne
+          </pre>
+          </div>
+
+          <div>
+            <h3>Code</h3>
+            <pre>
+<code>
+.wrapper {
+  display: flex;
+  vertical-align: left;
+  justify-content: middle;
+}
+</code>
+</pre>
+          </div>
+
+          <a id="blockquotes">
+            <h2>Blockquotes</h2>
+          </a>
+          <p>
+            Restons simples. Les italiques sont bons pour aider à le distinguer de la
+             le corps du texte. Assurez-vous de styliser la citation.
+          </p>
+
+          <blockquote>
+            "Si vous remontez quelques centaines d'années en arrière, ce que nous tenons pour acquis
+             aujourd'hui semblerait magique - être capable de parler aux gens pendant longtemps
+             distances, pour transmettre des images, voler, accéder à de grandes quantités de
+             données comme un oracle. Ce sont toutes des choses qui auraient été
+             considéré comme magique il y a quelques centaines d'années."<br />
+            <a href="#">Marc Zuckerberg</a>
+          </blockquote>
+          <hr />
+          <form>
+            <label>Prénom: </label><input type="text" /><br />
+            <label>Nom de famille: </label><input type="text" /><br />
+            <label>E-mail: </label><input type="email" /><br />
+            <textarea cols="30" rows="10"></textarea><br />
+            <button>Soumettre</button>
+          </form>
+          <footer>&copy; Copyright Microsoft Systems</footer>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
