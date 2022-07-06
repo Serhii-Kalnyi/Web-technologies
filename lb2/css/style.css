@@ -1,0 +1,178 @@
+section::before {
+  content: '';
+  position: absolute;
+  border: 25px solid transparent;
+  border-left: 200px solid #87cefa;
+  border-top: 4px solid #87cefa;
+
+ }
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #87cefa;
+  border: 1px #87cefa solid;
+  background: white;
+  border-radius: 0px;
+  margin-left: auto;
+  padding: 15px;
+  width: 150px;
+}
+
+.btn:hover {
+  background: #87cefa;
+  color: #ffffff;
+}
+
+
+.we-are{
+  color: #87cefa;
+  transition-duration: 0.4s;
+}
+
+.we-are:hover{
+  color: #48b8fd;
+  font-weight:bold;
+  font-size: 35px;
+  transition-duration: 0.4s;
+}
+
+
+.box-work {
+  padding: 10px;
+}
+
+.box-work:nth-child(even) {
+  background: rgb(235, 235, 235);
+}
+
+.box-work div p::first-letter {
+  font-size: 30px;
+  color: black;
+}
+
+.box-work div p {
+  color: #757575;
+  font-style: italic;
+}
+
+.tm-banner {
+  border: grey 1px solid;
+}
+
+.tm-content-box,
+.tm-sidebar {
+  box-shadow: 0px 0px 3px black;
+}
+
+.tm-nav-item:hover {
+  background: rgba(0, 0, 0, 0.568);
+  font-weight:bold;
+  font-size: 35px;
+  transition-duration: 0.2s;
+}
+
+.main-section .tm-content-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-section .tm-team-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.main-section .flex-item:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section .flex-item h2 {
+  color: #87cefa;
+}
+
+.main-section .flex-item p::first-letter {
+  font-size: 30px;
+  margin-left: 20px;
+  color: #87cefa;
+}
+
+.tm-content-box .flex-item p:nth-child(2) {
+  color: #757575;
+  font-style: italic;
+}
+
+.carousel-content .tm-section-title {
+  color: gainsboro;
+  letter-spacing: 5px;
+}
+
+.gallery-container .box-bg:hover,
+.gallery-container .box-bg h2:hover {
+  color: #fff;
+  background-color: #87cefa;
+}
+
+.heading a {
+  color: black;
+  text-decoration: underline;
+}
+
+.heading sup {
+  color: red;
+  text-decoration: none;
+}
+
+.heading a:hover {
+  color: #87cefa;
+  text-decoration: none;
+  border-bottom: 3px double;
+}
+
+.heading a:visited {
+  border-color: #87cefa;
+}
+
+.text::after {
+  position: absolute;
+  top: 10;
+  content: "New";
+  font-size: 10px;
+  color: red;
+  text-decoration: none;
+}
+
+button:focus {
+  border: 3px solid rgb(86, 207, 255);
+  outline: none;
+}
+button {
+  border: 3px solid rgb(86, 207, 255);
+  outline: none;
+}
+
+.submit-end{
+  color:rgb(86, 207, 255);
+  background-color:#fff;
+  border: rgb(86, 207, 255) slide  2px;
+  width: 150px;
+  height: 70px;
+  font-size: 25px;
+  float: right;
+  transition-duration: 0.2s;
+}
+
+.submit-end:hover{
+  color:rgb(255, 255, 255);
+  background-color:rgb(86, 207, 255);
+  font-size: 30px;
+  font-weight:bold;
+  width: 170px;
+  height: 90px;
+  transition-duration: 0.2s;
+}
